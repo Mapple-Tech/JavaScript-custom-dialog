@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Experiments</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<!-- update the version number as needed -->
+
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+		crossorigin="anonymous"></script>
+		<script src="util.js"></script>
+
+	</head>
+	<body marginwidth="0px" marginheight="0px">
+
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Top Left","This alert box is positioned ",projectUtil.positions.LEFT_TOP)'>
+			Show Alert Top Left
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Top Center","This alert box is positioned top-center",projectUtil.positions.TOP)'>
+			Show Alert Top Center
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Top Right","This alert box is positioned top-right",projectUtil.positions.RIGHT_TOP)'>
+			Show Alert Top Right
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Middle Left","This alert box is positioned middle-left",projectUtil.positions.LEFT_CENTER)'>
+			Show Alert Middle Left
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Middle Center","This alert box is positioned middle-center",projectUtil.positions.CENTER)'>
+			Show Alert Middle Center
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Middle Right","This alert box is positioned middle-right",projectUtil.positions.RIGHT_CENTER)'>
+			Show Alert Middle Right
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Bottom Left","This alert box is positioned bottom-left",projectUtil.positions.LEFT_BOTTOM)'>
+			Show Alert Bottom Left
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Bottom Center","This alert box is positioned bottom-center",projectUtil.positions.BOTTOM)'>
+			Show Alert Bottom Center
+		</button>
+		<button onclick='javascript:projectUtil.showMyAlert("Alert positioned Bottom Right","This alert box is positioned bottom-right",projectUtil.positions.RIGHT_BOTTOM)'>
+			Show Alert Bottom Right
+		</button>
+
+		<button onclick='javascript:projectUtil.showAllAlerts()'>
+			Show All Alerts
+		</button>
+
+	</body>
+</html>
